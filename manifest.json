@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2,
 
-	"name": "[NAME]",
-	"short_name": "[NAME]",
+	"name": "Startpage-Go",
+	"short_name": "Go",
 	"version": "0.1",
-	"description": "[DESCRIPTION]",
-	"author": "[AUTHOR]",
+	"description": "Startpage with history and bookmarks",
+	"author": "Hester de Stoppelaar",
 
 	"icons": {
 		"16": "images/icon.png",
@@ -49,12 +49,12 @@
 			"19": "images/icon.png",
 			"38": "images/icon.png"
 		},
-		"default_title": "[NAME]",
+		"default_title": "Startpage Go",
 		"default_popup": "html/options.html"
 	},
 	"options_page": "html/options.html",
 	"options_ui": {
 		"chrome_style": true,
-		"page": "html/options.html"
+		"page": "html/startpage.html"
 	}
 }
